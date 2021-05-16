@@ -15,7 +15,7 @@
 .cxx
 local.properties
 
-out
+/out
 # Compiled class file
 *.class
 
