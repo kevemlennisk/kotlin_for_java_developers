@@ -1,6 +1,11 @@
 package academy.learnprogramming.declarations
 
+typealias EmployeeSet = Set<Employee>
+
 fun main(args: Array<String>) {
+
+    var employees: EmployeeSet
+
     var number: Int = 45                                            //Mutable variable. It is underlined and it can be reassigned
 
     val employee = Employee("Julia Ma", 1)                //Immutable variable. It cannot be reassigned
