@@ -21,9 +21,10 @@ fun main(args: Array<String>) {
 }
 
 class Employee(var name: String, val id: Int){
-    override fun equals(other: Any?): Boolean {
+
+    override fun equals(other: Any?): Boolean {                     //Generic object that can hold any kotlin object
         if (other is Employee) {
-            return name == other.name && id == other.id
+            return (name == other.name) and (id == other.id)        //Kotlin can use spelled operator
         }
 
         return false
