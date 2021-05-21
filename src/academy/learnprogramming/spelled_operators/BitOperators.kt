@@ -1,4 +1,4 @@
-package academy.learnprogramming.bit_operators
+package academy.learnprogramming.spelled_operators
 
 fun main() {
 
