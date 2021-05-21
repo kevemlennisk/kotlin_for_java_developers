@@ -29,11 +29,16 @@ fun main() {
     //   1
     //  11
     // 111
+    println("""   1
+            |  11
+            | 111""".trimMargin())
+
+    println("")
+
+    //Do the same using "1" as trim margin
     val separator = "1"
     println("""$separator   1
             $separator  11
             $separator 111""".trimMargin("1"))
-
-
 
 }
