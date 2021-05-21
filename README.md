@@ -16,4 +16,7 @@ Kotlin Programing
 ### String templates
     $ sign allows the print the value of a variable inside a string text
     $ and curly braces '${}' together prints the avaluation of an expression. Ex: ${a+b}
-    
+
+### Raw Strings
+    When you use triple quoted strings, you don't have o scape characters. It can contains line breaks
+    but it cannot has tabs
