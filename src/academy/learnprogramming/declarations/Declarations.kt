@@ -1,10 +1,10 @@
 package academy.learnprogramming.declarations
 
+import academy.learnprogramming.Employee
+
 typealias EmployeeSet = Set<Employee>
 
 fun main(args: Array<String>) {
-
-    var employees: EmployeeSet
 
     var number: Int = 45                                            //Mutable variable. It is underlined and it can be reassigned
 
@@ -18,16 +18,4 @@ fun main(args: Array<String>) {
     } else {
         employee1 = Employee("William Bonner", 2)
     }
-}
-
-class Employee(var name: String, val id: Int){
-
-    override fun equals(other: Any?): Boolean {                     //Generic object that can hold any kotlin object
-        if (other is Employee) {
-            return (name == other.name) and (id == other.id)        //Kotlin can use spelled operator
-        }
-
-        return false
-    }
-
 }

@@ -1,6 +1,6 @@
 package academy.learnprogramming.equality
 
-import academy.learnprogramming.declarations.Employee
+import academy.learnprogramming.Employee
 
 fun main() {
     val employee1 = Employee("Mary", 1)

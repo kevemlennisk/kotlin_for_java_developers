@@ -1,6 +1,6 @@
 package academy.learnprogramming.smart_casting
 
-import academy.learnprogramming.declarations.Employee
+import academy.learnprogramming.Employee
 
 fun main() {
     val employee = Employee("Mary", 1)
