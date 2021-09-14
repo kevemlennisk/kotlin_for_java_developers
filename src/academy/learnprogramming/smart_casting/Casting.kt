@@ -9,7 +9,7 @@ fun main() {
 
     if(something is Employee) {                             // kotlin has smart casting implementation,which means that */
         //val newEmployee = something as Employee           // after performing an 'is' operation, it is possible to treat
-        println(something.name)                           // the variable as if it is casted. The compiler does the cast
+        println(something.name)                             // the variable as if it is casted. The compiler does the cast
     }                                                       // underneath
 
 }

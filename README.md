@@ -1,22 +1,27 @@
 # kotlin_for_java_developers
-Kotlin Programing 
+Kotlin Programing Learning course
 
-#Topics
+# General considerations
 
-### Equality check
-    You can use == to check structural equality and === to verify referential equality
+- There are no basic data type in Kotlin. Every data is an object
 
-### Spelled operators  
-    Kotlin allow the use of spelled operators: 'and', 'or', 'xor'
 
-### Smart casting
-    After verifyng the instance of an variable, you can treat the variable as if it is already casted
-    Under the wood, th compiler performs a casting operation for us
+# Topics
 
-### String templates
-    $ sign allows the print the value of a variable inside a string text
-    $ and curly braces '${}' together prints the avaluation of an expression. Ex: ${a+b}
+### [Equality check](./src/academy/learnprogramming/equality/Equality.kt)
+> You can use == to check structural equality and === to verify referential equality
 
-### Raw Strings
-    When you use triple quoted strings, you don't have o scape characters. It can contains line breaks
-    but it cannot has tabs
+### [Spelled operators](./src/academy/learnprogramming/spelled_operators/BitOperators.kt)
+> Kotlin allow the use of spelled operators: 'and', 'or', 'xor'
+
+### [Smart casting](./src/academy/learnprogramming/smart_casting/Casting.kt)
+> After verifyng the instance of an variable, you can treat the variable as if it is already casted
+> Under the wood, the compiler performs a casting operation for us
+
+### [String templates](./src/academy/learnprogramming/string_template/StringTemplate.kt)
+> $ sign allows the print the value of a variable inside a string text
+> $ and curly braces '${}' together prints the avaluation of an expression. Ex: ${a+b}
+
+### [Raw Strings](./src/academy/learnprogramming/raw_strings/RawStrings.kt)
+> When you use triple quoted strings, you don't have o scape characters. It can contains line breaks
+> but it cannot has tabs
