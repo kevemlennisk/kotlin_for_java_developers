@@ -3,8 +3,6 @@ Kotlin Programing Learning course
 
 # General considerations
 
-- There are no basic data type in Kotlin. Every data is an object
-
 
 # Topics
 
@@ -25,3 +23,23 @@ Kotlin Programing Learning course
 ### [Raw Strings](./src/academy/learnprogramming/raw_strings/RawStrings.kt)
 > When you use triple quoted strings, you don't have o scape characters. It can contains line breaks
 > but it cannot has tabs
+
+### [Data Types](./src/academy/learnprogramming/datatypes/DataTypes.kt)
+
+- There are no basic data type in Kotlin. Every variable is an object
+- When not informed, the data type is inferred accordingdly with the data value
+- Kotlin does not convert/cast variables automatically  
+- Every data types has two functions that allows conversion to other data types
+- Kotlin compiles objects to primitive types under the wood
+
+>> - Int
+>> - Long
+>> - Double
+>> - Short
+>> - Byte
+>> - String
+>> - Float
+>> - Char
+>> - Boolean
+>> - Any
+>> - Nothing
