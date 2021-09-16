@@ -43,3 +43,18 @@ Kotlin Programing Learning course
 >> - Boolean
 >> - Any
 >> - Nothing
+
+### [Arrays](./src/academy/learnprogramming/datatypes/Arrays.kt)
+> Collection of elements
+> 
+> When the array type is not informed, the compiler will infer the type
+> 
+> Arrays can be initialized with lambda expression
+> 
+> It is possible to mix data types in arrays
+> 
+> By using the primitive type array performance boost is generated
+> 
+> In order to interoperate with Java, primitive array must be passed as arguments
+> 
+> Primitive arrays allows to specify the size and all indexes will be initialized with the value zero
