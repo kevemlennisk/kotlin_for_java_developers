@@ -35,6 +35,8 @@ fun main() {
 
     //Arrays interoperability with Java
     val intArray = intArrayOf(12,45,667,87,34,67)
+    val longArray = longArrayOf(1, 2, 3, 4, 4)
+    val charArray = charArrayOf('q')
 
     val dummyClass = DummyClass()
     dummyClass.printNumbers(intArray)
