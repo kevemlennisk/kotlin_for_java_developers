@@ -11,4 +11,10 @@ public class DummyClass {
             System.out.println(number);
         }
     }
+
+    public void printChars(char[] chars) {
+        for(char c : chars) {
+            System.out.print(c);
+        }
+    }
 }
