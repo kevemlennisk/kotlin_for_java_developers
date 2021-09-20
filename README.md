@@ -3,7 +3,10 @@ Kotlin Programing Learning course
 
 # General considerations
 
-
+- Concise: less verbose than Java
+- Safe programming language
+- Interoperable with Java
+- 
 # Topics
 
 ### [Equality check](./src/academy/learnprogramming/equality/Equality.kt)
@@ -58,3 +61,37 @@ Kotlin Programing Learning course
 > In order to interoperate with Java, primitive array must be passed as arguments
 > 
 > Primitive arrays allows to specify the size and all indexes will be initialized with the value zero
+
+### [Null References](./src/academy/learnprogramming/null_references/NullReferences.kt)
+
+> Null can not be the value of a non-null 
+>
+> If you want to sign a null value to a variable you have to explicit tell the compiler that with a question mark after the type of the variable
+> 
+> Kotlin enforces to do a Null check before using a nullable object interfaces
+> 
+> **Safe call operator / Safe access (?)**: 
+>> - Whenever you are using a nullable variable, you must always use the question mark when refering to the variable
+>> 
+>> - If the variable is null, the expression will be evaluated to null
+>> 
+>> - If it is not null, the kotlin will evaluate the expression
+> 
+> **Elvis operator (?:)**: 
+>> - Allows to assign a default value when an expression evaluates to null
+> 
+> > **Safe casting operator (as?)**:
+>> - Allows to cast a variable and assigns null if is not possible to perform the casting
+> 
+> **Not Null Assetion**
+>> Kotlin provides a way to tell the compiler that you are absolutily positive that the variable will not contain null
+>? by following the expression with 2 exclamation marks (!!)
+> 
+> **Let function**
+>> - Uses the object tha calls it as a parameter to the lambda and safe execute a block if the object is not null 
+> 
+> **Array of Nulls**
+>> - Kotlin has a interface to create array of nulls as follow
+>>```kotlin
+>>val nullableInts = arrayOfNulls<Int?>(5)
+>>```
