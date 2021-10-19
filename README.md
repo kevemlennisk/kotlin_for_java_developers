@@ -223,3 +223,25 @@ Kotlin Programing Learning course
 > Also, we no longer need the use of the expresssion 'this'.
 >
 > After this association, IntelliJ now suggests the new function as if it is part of the class
+
+
+###[Inheritance](./src/academy/learnprogramming/inheritance/Printer.kt)
+
+> In order to turn classes extendable and allow overriding operation, we need to use the keyword **open** in front of it
+> 
+> When a class is defined as abstract there is no need to use the keyword **open**
+> 
+> It is necessary to defined primary constructor and delegate the subclasses constructor parameters
+> 
+> To override a function from an abstract class we need to add the **override** keyword on the extended class (subclass)
+> and **open** the superclass function
+> 
+> Just like the classes, abstract functions are open by default and all subclasses have to add override the implementation
+> 
+> **Overrides algo means open**
+> 
+> If we need to prevent that subclasses overrides superclasses functions, we must use the **final** keyword at the function
+> 
+> The primary constructor signatures for the parent and child classes doesn't have to match
+> 
+> Data classes are close tight. They can't be extended nor abstract
