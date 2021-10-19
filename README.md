@@ -245,3 +245,15 @@ Kotlin Programing Learning course
 > The primary constructor signatures for the parent and child classes doesn't have to match
 > 
 > Data classes are close tight. They can't be extended nor abstract
+
+###[Interfaces](./src/academy/learnprogramming/inheritance/Interfaces.kt)
+
+> **Interfaces** are open and extendable by default
+> 
+> Classes can implement more than one interface
+> 
+> Interfaces can have properties and there properties doesn't have to be abstract. It is possible to have 
+> accessors for them and sub interfaces can override the accessors
+> 
+> Properties initializers is not allow in interfaces. Instead, we can use custom _get_
+> However, the backfield are not available for interfaces

@@ -5,7 +5,7 @@ fun main() {
     laserPrinter.printModelName()
     println(laserPrinter.bestSellingPrice())
 
-    val specialLaserPrinter = SpecialLaserPrinter("Special LaserPrinter 7273")
+    val specialLaserPrinter = SpecialLaserPrinter("Special LaserPrinter 7273", 100)
     specialLaserPrinter.printModelName()
 }
 
@@ -21,6 +21,6 @@ open class LaserPrinter(modelName: String, ppm: Int): Printer(modelName) {
     override fun bestSellingPrice(): Double = 129.99
 }
 
-class SpecialLaserPrinter(modelName : String ): LaserPrinter(modelName) {
+class SpecialLaserPrinter(modelName : String, ppm: Int): LaserPrinter(modelName, ppm) {
 
 }
