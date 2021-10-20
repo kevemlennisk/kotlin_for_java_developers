@@ -275,3 +275,10 @@ Kotlin Programing Learning course
        invoked by class name
       - You can use them to call private constructor and implement the Factory Pattern
 > * [Object expressions](./src/academy/learnprogramming/singleton/ObjectExpression.kt): allow the use of anonymous object to implement interfaces
+
+###[Enums](./src/academy/learnprogramming/enums/Enums.kt)
+> Enums in Kotlin has the same structure and syntax as JAVA
+> 
+> It is necessary to use a semicolon after the last enum value and before defining functions in enums
+> 
+> This is the only exception to the no semicolon rule in Kotlin
