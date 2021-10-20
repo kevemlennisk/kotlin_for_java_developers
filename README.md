@@ -257,3 +257,21 @@ Kotlin Programing Learning course
 > 
 > Properties initializers is not allow in interfaces. Instead, we can use custom _get_
 > However, the backfield are not available for interfaces
+
+###[Singleton](./src/academy/learnprogramming/singleton/Singleton.kt)
+
+> The **Object** keyword allows to declare a class and its instance at the same time
+> 
+> There are tree use cases for the **object** keyword:
+> * Singleton:
+>    - there is no constructor
+>    - there is no need to instantiate the singleton class. 
+>    - the JVM will create the one singleton object when the class is invoked at first time
+>    - use the class name to access the object properties and functions
+> * Companion objects:
+>    - equivalent to Java static functionality, it allows to acccess a class properties and functions without having 
+       an instance of the class
+>    - the accessible properties and functions must be in a block prefixed with `companion object` and can be 
+       invoked by class name
+      - You can use them to call private constructor and implement the Factory Pattern
+> * [Object expressions](./src/academy/learnprogramming/singleton/ObjectExpression.kt): allow the use of anonymous object to implement interfaces
