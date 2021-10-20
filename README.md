@@ -282,3 +282,15 @@ Kotlin Programing Learning course
 > It is necessary to use a semicolon after the last enum value and before defining functions in enums
 > 
 > This is the only exception to the no semicolon rule in Kotlin
+
+
+###[Imports](./src/academy/learnprogramming/imports/Imports.kt)
+> In Kotlin, package name doesn't have to match the directory structure name. Although it is highly recommended following this practice
+> 
+> Top level function can be imported from different packages
+> 
+> It is not possible to import from other modules unless there a module dependency between the
+> 
+> Import alias allows to give names to the imported classes / functions / top level functions / extension functions using `as` keyword
+> 
+> CTRL + ALT + O cleans up all unsed imports
