@@ -238,7 +238,7 @@ Kotlin Programing Learning course
 > 
 > Just like the classes, abstract functions are open by default and all subclasses have to add override the implementation
 > 
-> **Overrides algo means open**
+> **Overrides something means that that thing is open**
 > 
 > If we need to prevent that subclasses overrides superclasses functions, we must use the **final** keyword at the function
 > 
@@ -282,6 +282,8 @@ Kotlin Programing Learning course
 > It is necessary to use a semicolon after the last enum value and before defining functions in enums
 > 
 > This is the only exception to the no semicolon rule in Kotlin
+> 
+> Enums values can implement abstract functions declared by the Enum itself
 
 
 ###[Imports](./src/academy/learnprogramming/imports/Imports.kt)
